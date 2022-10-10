@@ -172,6 +172,11 @@ html,body{
 .imgw{
     display: flex;
     margin-top: 80px;
+    color: aliceblue;
+    font-size: 10vw;
+    justify-content: space-evenly;
+    width: 100vw;
+
 }
 .node{
     width: 120px;
@@ -179,6 +184,15 @@ html,body{
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 10px;
+}
+.cont{
+    font-size: -webkit-xxx-large;
+    justify-content: space-evenly;
+    width: 100vw;
+    text-align: center;
+}
+.fa-solid{
+    font-size: xxx-large;
 }
 .css{
     width: 100px;
@@ -234,7 +248,8 @@ html,body{
     margin-top: 10px;
     height: 70px;
     width: 70px;
-    filter: invert(90%);
+    /* filter: invert(90%); */
+
 }
 .in{
     height: 130px;
@@ -425,6 +440,8 @@ footer{
         justify-content: center;
         align-items: center;
         margin-top: 40px;
+    justify-content: space-evenly;
+    width: 100vw;
     }
     .node{
         width: 90px;
@@ -482,7 +499,7 @@ footer{
         margin-top: 10px;
         height: 70px;
         width: 70px;
-        filter: invert(90%);
+        /* filter: invert(90%); */
     }
     .cont{
         display: flex;
@@ -571,40 +588,43 @@ footer{
         margin-top: 10px;
         height: 60px;
         width: 60px;
-        filter: invert(90%);
+        /* filter: invert(90%); */
     }
     .imgw{
         display: flex;
         margin-top: 80px;
+        font-size: 10vw;
+        justify-content: space-evenly;
+        width: 100vw;
     }
     .node{
-        width: 120px;
+        /* width: 120px;
         height: 90px;
         margin-left: 20px;
         margin-right: 20px;
-        margin-top: 10px;
+        margin-top: 10px; */
     }
     .css{
-        width: 100px;
+        /* width: 100px;
         height: 102px;
         margin-right: 30px;
-        margin-left: 30px;
+        margin-left: 30px; */
     }
     .html{
-        width: 100px;
+        /* width: 100px;
         height: 100px;
-        margin-right: 30px;
+        margin-right: 30px; */
     }
     .js{
-        width: 102px;
+        /* width: 102px;
         height: 100px;
         margin-right: 30px;
-        margin-left: 30px;
+        margin-left: 30px; */
     }
     .py{
-        width: 110px;
+        /* width: 110px;
         height: 100px;
         margin-top: 10px;
-        margin-left: 30px;
+        margin-left: 30px; */
     }
 }
