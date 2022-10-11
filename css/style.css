@@ -504,10 +504,7 @@ footer{
         padding-top: 20px;
         font-family: 'Montaga', serif;
     }
-    footer{
-        background-color: black;
-        color: aliceblue;
-    }
+    
     
 }
 @media only screen and (min-width:601px) and (max-width:1100px){
@@ -607,4 +604,8 @@ footer{
         margin-top: 10px;
         margin-left: 30px;
     }
+}
+footer{
+    background-color: rgb(7, 7, 27);
+    color: aliceblue;
 }
